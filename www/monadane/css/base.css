@@ -1,0 +1,243 @@
+
+
+/**************************
+initialise
+**************************/
+
+* {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;box-sizing: border-box;
+}
+
+
+
+html,body{
+    height:100%;
+	width:100%;
+	min-height:100%;
+	/*height: auto !important;*/
+}
+
+body{
+	font-size:1em;
+	line-height:150%;
+	color: #000000;
+	/*background-color:#1B1B1B;*/
+	//font-family: "ヒラギノ角ゴ Pro W3","Lucida Grande","Hiragino Kaku Gothic Pro","メイリオ",Verdana,"ＭＳ Ｐゴシック",sans-serif;
+    -webkit-text-size-adjust:100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub,  tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight:normal;
+}
+
+
+img{
+	border:none;
+}
+
+div{
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline:none;
+}
+
+
+area{
+	border:none;
+	outline:none;
+}
+
+a,a:link,a:visited,a:hover{
+	text-decoration:none;
+}
+
+img {border:0;}
+
+a,img,div{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/**************************
+bace frame setting
+**************************/
+
+
+#mainContent{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	min-height:100%;
+}
+
+
+.page{
+	width:100%;
+	height:100%;
+	min-height:100%;
+	display:block;
+	margin:0;
+	/*padding-top:78px;
+	overflow:hidden;*/
+	position:absolute;
+	top:0;
+	bottom:0;
+	display:none;
+}
+
+.current{
+	display:block;
+}
+
+
+.lg_jp .en{
+	display:none;
+}
+
+.lg_en .jp{
+	display:none;
+}
+
+
+/**************************
+Action Ber
+**************************/
+
+.actionBar{
+	position:relative;;
+	width:100%;
+	height:50px;
+	background-color:#333333;
+	color:#FFFFFF;
+	line-height:50px;
+}
+
+.actionBar a{
+	color:#FFFFFF;
+}
+
+.berTitle{
+	/*display:inline-block;
+	margin:0 auto;*/
+	text-align:center;
+}
+.berLeft{
+	/*float:left;
+	display:inline-block;*/
+	position:absolute;
+	top:0;
+	left:5px;
+}
+
+.berRight{
+	/*float:right;
+	display:inline-block;*/
+	position:absolute;
+	top:0;
+	right:5px;
+}
+
+.icon-Prev:before{
+	content:"\f053";
+}
+
+.icon-Setting:before{
+	content:"\f013";
+}
+
+/**************************
+Icon fonts
+**************************/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-fssgon');
+	src:url('../fonts/icomoon.eot?#iefix-fssgon') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-fssgon') format('truetype'),
+		url('../fonts/icomoon.woff?-fssgon') format('woff'),
+		url('../fonts/icomoon.svg?-fssgon#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size:24px;
+
+	/*line-height: 1;*/
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*
+.icon-close:before {
+	content: "\f00d";
+}
+.icon-wrench:before {
+	content: "\f0ad";
+}
+.icon-cog:before {
+	content: "\f013";
+}
+.icon-chevron-left:before {
+	content: "\f053";
+}
+.icon-chevron-right:before {
+	content: "\f054";
+}
+.icon-plus:before {
+	content: "\f067";
+}
+.icon-minus:before {
+	content: "\f068";
+}
+.icon-chevron-up:before {
+	content: "\f077";
+}
+.icon-chevron-down:before {
+	content: "\f078";
+}
+.icon-bars:before {
+	content: "\f0c9";
+}
+.icon-ellipsis-v:before {
+	content: "\f142";
+}
+*/

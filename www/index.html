@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'" />
+<title>Heart Beats</title>
+
+<!--Monaca 必須-->
+<link rel="stylesheet" type="text/css" href="components/loader.css" />
+<script type="text/javascript" src="components/loader.js"></script>
+
+<!--MonaDaneUI Base -->
+<link rel="stylesheet" type="text/css" href="monadane/css/animate.css" />
+<link rel="stylesheet" type="text/css" href="monadane/css/base.css" />
+<script type="text/javascript" src="monadane/js/oEvent.js"></script>
+<script type="text/javascript" src="monadane/js/oActionBar.js"></script>
+<script type="text/javascript" src="monadane/js/oBaseController.js"></script>
+<script type="text/javascript" src="monadane/js/oNowpea.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/content.css" />
+<link rel="stylesheet" type="text/css" href="asset/flaticon/flaticon.css" />
+
+<script type="text/javascript" src="libs/jquery.a3d.min.js"></script>
+<script type="text/javascript" src="libs/init.js"></script>
+<script type="text/javascript" src="libs/oVibelater.js"></script>
+<script type="text/javascript" src="libs/oBeatData.js"></script>
+<script type="text/javascript" src="libs/contents.js"></script>
+
+</head>
+
+<body>
+<!--
+<div id="sidebMenu">
+	<ul>
+		<li><a href="setting">Setting</a></li>
+		<li><a href="about">About</a></li>
+		<li><a href="exit">Exit App</a></li>
+	</ul>
+</div>
+-->
+
+<div id="mainContent">
+	<div id="top" class="page current">
+
+		<div class="actionBar">
+			<div class="berTitle"><span>Heart Beats</span></div>
+			<div class="berRight"><a href="#setting" class="icon-Setting"></a></div>
+		</div>
+
+		<div class="content">
+			<select id="beType"></select>
+			<div id="heartImg">
+				<img src="images/body_shinzou02.png" width="613" height="615" alt ="" />
+			</div>
+			<div id="typeSymbol"><p class="flaticon-dog53"></p></div>
+			<div id="beatData">
+				<span class="btTxt"></span> beats / 60 sec
+			</div>
+			
+		</div>
+	</div>
+
+	<!--
+	<div id="setting" class="page">
+		<div class="actionBar">
+			<div class="berTitle"><span>Heart Beats</span></div>
+			<div class="berLeft"><a href="#top" class="icon-Prev"></a></div>
+		</div>
+		<div class="content">
+			<h2>Setting</h2>
+			<dl>
+				<dt>
+					<span class="en">Viblate Length:</span>
+					<span class="jp">振動時間:</span>
+				</dt>
+				<dd>
+					<input type="radio" name="bTime" value="0" checked="checked">60sec
+					<input type="radio" name="btime" value="1">Forever
+				</dd>
+				<dt>
+					<span class="en">Your Beat:</span>
+					<span class="jp">自分の鼓動:</span>
+				</dt>
+				<dd>
+					<input type="text" name="myBeat" value="60" /> / 60 Sec
+				</dd>
+			</dl>
+			<input type="button" value="Set" />
+			<input type="button" value="cancel" />
+			
+		</div>
+	</div>
+	-->
+
+	<!--
+	<div id="about" class="page">
+		<div class="actionBar">
+			<div class="berTitle"><span>App Name</span></div>
+			<div class="berLeft"><a href="#setting" class="icon-Prev"></a></div>
+		</div>
+		<div class="content">
+			<h2>About</h2>
+		</div>
+	</div>
+	-->
+
+</div>
+
+
+</body>
+</html>

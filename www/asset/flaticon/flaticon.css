@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="flaticon-"],
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-size: 150px;
+	font-style: normal;
+	/*margin-left: 20px;*/
+	line-height:200px;
+	color:#FFFFFF;
+}
+
+.flaticon-chick2:before {
+	content: "\e000";
+}
+
+.flaticon-cow9:before {
+	content: "\e001";
+}
+
+.flaticon-dog53:before {
+	content: "\e002";
+}
+
+.flaticon-dog77:before {
+	content: "\e003";
+}
+
+.flaticon-elephant6:before {
+	content: "\e004";
+}
+
+.flaticon-giraffe8:before {
+	content: "\e005";
+}
+
+.flaticon-girl47:before {
+	content: "\e006";
+}
+
+.flaticon-gymnast5:before {
+	content: "\e007";
+}
+
+.flaticon-halloween237:before {
+	content: "\e008";
+}
+
+.flaticon-heart378:before {
+	content: "\e009";
+}
+
+.flaticon-horse123:before {
+	content: "\e00a";
+}
+
+.flaticon-man13:before {
+	content: "\e00b";
+}
+
+.flaticon-monkey3:before {
+	content: "\e00c";
+}
+
+.flaticon-pig4:before {
+	content: "\e00d";
+}
+
+.flaticon-rabbit5:before {
+	content: "\e00e";
+}
+
+.flaticon-rat2:before {
+	content: "\e00f";
+}
+
+.flaticon-small163:before {
+	content: "\e010";
+}
+
+.flaticon-tablet6:before {
+	content: "\e011";
+}
+
+.flaticon-whale:before {
+	content: "\e012";
+}

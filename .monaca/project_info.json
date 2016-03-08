@@ -1,0 +1,37 @@
+{
+    "plugins": [
+        "mobi.monaca.plugins.Monaca"
+    ],
+    "framework_version": "3.5",
+    "xcode_version": "6",
+    "cordova_version": "5.2",
+    "plugin_settings": {
+        "cordova-plugin-vibration": {
+            "variables": []
+        },
+        "cordova-plugin-splashscreen": {
+            "variables": []
+        },
+        "cordova-plugin-globalization": {
+            "variables": []
+        },
+        "cordova-plugin-device": {
+            "variables": []
+        },
+        "cordova-plugin-network-information": {
+            "variables": []
+        },
+        "cordova-plugin-dialogs": {
+            "variables": []
+        }
+    },
+    "external_plugins": [
+        "cordova-plugin-splashscreen@2.1.0",
+        "cordova-plugin-globalization@1.0.2",
+        "cordova-plugin-network-information@1.2.0",
+        "cordova-plugin-device@1.1.1",
+        "cordova-plugin-dialogs@1.2.0",
+        "cordova-plugin-whitelist@1.0.0",
+        "cordova-plugin-vibration@2.1.0"
+    ]
+}
